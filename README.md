@@ -18,12 +18,13 @@ This is a solution to the QR code component challenge on Frontend Mentor (https:
 
 ### Screenshot
 
-![375 pixels wide screenshot](\screenshots\375dev.png)
-![1440 pixels wide screenshot](\screenshots\1440dev.png)
+![375 pixels wide screenshot](/screenshots/375dev.png)
+![1440 pixels wide screenshot](/screenshots/1440dev.png)
 
 ### Links
 
-- Solution URL: (https://github.com/Klonnister/HTML-Pruebas/tree/main/Exercises/qr-code-component-main)
+- Solution: https://klonnister.github.io/QRcode-exercise/
+- Repository: https://github.com/Klonnister/HTML-Pruebas/tree/main/Exercises/qr-code-component-main
 
 ## My process
 
