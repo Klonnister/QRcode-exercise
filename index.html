@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    body {
+      background-color: hsl(212, 45%, 89%);
+      font-family: "Outfit";
+    }
+
+    .whitecontainer{
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      width: 256px;
+      height: 400px;
+      margin: auto;
+      margin-top: 50px;
+    }
+
+    .qrcode {
+        width: 90%;
+        margin-left: 5%; 
+        margin-top: 5%;
+        border-radius: 10px;
+      }
+
+      .title{
+        width: 85%;
+        margin: 0px auto;
+        margin-top: 15px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        color: hsl(218, 44%, 22%);
+      }
+      
+      .lead{
+        width: 85%;
+        margin: 0px auto;
+        margin-top: 13px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 12px;
+        color: hsl(220, 15%, 55%);
+      }
+
+    @media only screen and (max-width:375px) {
+
+      .whitecontainer{
+        width: 320px;
+        height: 500px;
+        margin-left: 17.5px;
+        margin-top: 80px;
+      }
+
+      .title{
+        font-size: 22px;
+        margin-top: 19px;
+      }
+
+      .lead{
+        font-size: 16px; 
+        margin-top: 18px;
+      }
+    } 
+  </style>
+</head>
+<body>
+  <div class="whitecontainer">
+    <img src="/Exercises/qr-code-component-main/images/image-qr-code.png" alt="QR code" class="qrcode">
+
+    <div class="title">
+      Improve your front-end skills by building projects
+    </div>
+      
+    <div class="lead">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </div>
+  </div>
+</body>
+</html>
