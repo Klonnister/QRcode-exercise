@@ -59,7 +59,7 @@ First I compared the link provided in the style-guide text document to the examp
 
 ### Useful resources
 
-[W3Schools page](https://www.w3schools.com/css/css_font_google.asp)
+[W3Schools google font page](https://www.w3schools.com/css/css_font_google.asp)
 
 ## Author
 
