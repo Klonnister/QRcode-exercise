@@ -16,13 +16,19 @@
       font-family: "Outfit";
     }
 
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 97vh;
+    }
+
     .whitecontainer{
       background-color: hsl(0, 0%, 100%);
       border-radius: 20px;
       width: 275px;
       height: 415px;
       margin: auto;
-      margin-top: 110px;
     }
 
     .qrcode {
@@ -62,10 +68,11 @@
         height: 430px;
       }
       }
-      
+
   </style>
 </head>
 <body>
+<div class="container">
   <div class="whitecontainer">
     <img src="images/qr.png" alt="QR code" class="qrcode">
 
@@ -77,5 +84,6 @@
       Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
     </div>
   </div>
+</div>  
 </body>
 </html>
