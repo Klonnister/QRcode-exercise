@@ -2,83 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
   <title>Frontend Mentor | QR code component</title>
-
-  <style>
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background-color: hsl(212, 45%, 89%);
-      font-family: "Outfit";
-    }
-
-    .container{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    }
-
-    .whitecontainer{
-      background-color: hsl(0, 0%, 100%);
-      border-radius: 20px;
-      width: 275px;
-      height: 415px;
-    }
-
-    .qrcode {
-        width: 90%;
-        margin-left: 5%; 
-        margin-top: 5%;
-        border-radius: 10px;
-      }
-
-      .title{
-        width: 85%;
-        margin: 0px auto;
-        margin-top: 15px;
-        text-align: center;
-        font-weight: 700;
-        font-size: 19px;
-        color: hsl(218, 44%, 22%);
-      }
-      
-      .lead{
-        width: 80%;
-        margin: 0px auto;
-        margin-top: 13px;
-        text-align: center;
-        font-weight: 400;
-        font-size: 13px;
-        color: hsl(220, 15%, 55%);
-      }
-
-    @media only screen and (max-width:375px) {
-
-      .whitecontainer{
-        width: 275px;
-        height: 430px;
-      }
-      }
-
-  </style>
 </head>
 
 <body>
-<main class="container">
+<main class="maincontainer">
   <div class="whitecontainer">
-    <img src="images/qr.png" class="qrcode">
+    <img src="images/qr.png" alt="" class="qrcode">
 
     <h1 class="title">
       Improve your front-end skills by building projects
