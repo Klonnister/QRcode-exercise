@@ -36,20 +36,19 @@ This is a solution to the QR code component challenge on Frontend Mentor (https:
 
 ### What I learned
 
-In this exercise I first practiced using media queries, which I hadn't done before. 
+First I learned about landmarks and accessibility. I hand't read enough about it and it is very important, so I added semantic html tags to make the page more accessible. 
 
-```css
-@media only screen and (max-width:375px) {
-
-      .whitecontainer{
-        width: 320px;
-        height: 500px;
-        margin-left: 17.5px;
-        margin-top: 80px;
-      }
+```html
+ <nav></nav><h1></h1>
 ```
 
-The second thing I learned with this challenge, is to add google fonts to html documents. At the beginning I wasn't able to do it, as I was just copying the font link provided in the style-guide text document. So I had to navigate through the google font page and get some guidance from the w3schools page to correctly add the font. 
+I also first worked using relative units such as rem, em, vh, etc. I used to work only with pixels.
+
+```css
+ .maincontainer {min-height: 100vh;}
+```
+
+Lastly I learned how to add google fonts to html documents. At the beginning I wasn't able to do it, as I was just copying the font link provided in the style-guide text document. So I had to navigate through the google font page and get some guidance from the w3schools page to correctly add the font. 
 
 How did I add the google font to my page? 
 First I compared the link provided in the style-guide text document to the examples shown at the w3schools page for adding google fonts; I realized they were somehow different. So I navigated through the google font page and looked for a way to get a similar link to the one in the style-guide doc. It was until I selected any of the options (the options are identified by weight. E.g. Regular 400) in the styles section that a canvas showed up with the links to add the font to your css. 
