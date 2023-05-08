@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit";
+  }
+
+.maincontainer {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whitecontainer{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1em;
+    border-radius: 20px;
+    width: 19em;
+  }
+
+.qrcode {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+.title{ 
+    text-align: center;
+    font-size: 1.25rem;
+    color: hsl(218, 44%, 22%);
+    margin: 1rem;
+  }
+  
+.lead{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-size: .90rem;
+    margin: 1rem;
+  }
